@@ -1,0 +1,9 @@
+D:\Source\Repos\DecompileChallenge\BinaryMath\BinaryMath\bin\Debug\BinaryMath.exe.config
+D:\Source\Repos\DecompileChallenge\BinaryMath\BinaryMath\obj\Debug\BinaryMath.csprojResolveAssemblyReference.cache
+D:\Source\Repos\DecompileChallenge\BinaryMath\BinaryMath\bin\Debug\BinaryMath.exe
+D:\Source\Repos\DecompileChallenge\BinaryMath\BinaryMath\bin\Debug\BinaryMath.pdb
+D:\Source\Repos\DecompileChallenge\BinaryMath\BinaryMath\obj\Debug\BinaryMath.exe
+D:\Source\Repos\DecompileChallenge\BinaryMath\BinaryMath\obj\Debug\BinaryMath.pdb
+D:\Source\Repos\BinaryMath\BinaryMath\bin\Debug\BinaryMath.exe.config
+D:\Source\Repos\BinaryMath\BinaryMath\obj\Debug\BinaryMath.exe
+D:\Source\Repos\BinaryMath\BinaryMath\obj\Debug\BinaryMath.pdb

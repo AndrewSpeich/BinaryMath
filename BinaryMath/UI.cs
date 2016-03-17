@@ -10,6 +10,8 @@ namespace BinaryMath
     {
         ConvertBinary convert = new ConvertBinary();
         AddBinary addnumbers = new AddBinary();
+        AndBinary matchnumbers = new AndBinary();
+        Or comparenumbers = new Or();
         List<bool> output;
         public void getNumber()
         {
@@ -21,7 +23,32 @@ namespace BinaryMath
         public void addNumbers()
         {
 
-            output = addnumbers.addNumbers(convert.returnFirst(), convert.returnSecond());                            
+            output = addnumbers.addNumbers(convert.returnFirst(), convert.returnSecond());
+        }
+        public void andNumbers()
+        {
+
+            output = matchnumbers.And(convert.returnFirst(), convert.returnSecond());
+        }
+        public void nandNumbers()
+        {
+
+            output = matchnumbers.NAnd(convert.returnFirst(), convert.returnSecond());
+        }
+        public void orNumbers()
+        {
+
+            output = comparenumbers.OrInclusive(convert.returnFirst(), convert.returnSecond());
+        }
+        public void xorNumbers()
+        {
+
+            output = comparenumbers.Xor(convert.returnFirst(), convert.returnSecond());
+        }
+        public void norNumbers()
+        {
+
+            output = comparenumbers.Nor(convert.returnFirst(), convert.returnSecond());
         }
         public void printOutput()
         {
@@ -39,6 +66,41 @@ namespace BinaryMath
                 }
                 
             }
+        }
+        public void getMath()
+        {
+            Console.WriteLine("What would you like to do with these numbers? Add, And, Or, Nand, Nor, Xor");
+            switch (Console.ReadLine())
+            {
+                case "Add":
+                    addNumbers();
+                    printOutput();
+                    break;
+                case "And":
+                    addNumbers();
+                    printOutput();
+                    break;
+                case "Or":
+                    orNumbers();
+                    printOutput();
+                    break;
+                case "Nand":
+                   nandNumbers();
+                    printOutput();
+                    break;
+                case "Nor":
+                    norNumbers();
+                    printOutput();
+                    break;
+                case "Xor":
+                    xorNumbers();
+                    printOutput();
+                    break;
+                default:
+                    getMath();
+
+            }
+
         }
     }
 

@@ -12,8 +12,7 @@ namespace BinaryMath
         {
             UI input = new UI();
             input.getNumber();
-            input.addNumbers();
-            input.printOutput();
+            input.getMath();
             Console.Read();
         }
     }

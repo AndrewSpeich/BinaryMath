@@ -77,7 +77,7 @@ namespace BinaryMath
                     printOutput();
                     break;
                 case "And":
-                    addNumbers();
+                    andNumbers();
                     printOutput();
                     break;
                 case "Or":
@@ -98,7 +98,7 @@ namespace BinaryMath
                     break;
                 default:
                     getMath();
-
+                    break;
             }
 
         }
